@@ -15,7 +15,7 @@ public class ExampleUnitTest {
 
     @Test
     public void subtraction_isCorrect() throws Exception {
-        // Purposely fail to test CI on Jenkins.
-        assertEquals(1, 2 + 2);
+        // Purposely fail unit test to verify CI on Jenkins.
+//        assertEquals(1, 2 + 2);
     }
 }
