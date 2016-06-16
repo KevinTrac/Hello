@@ -12,4 +12,10 @@ public class ExampleUnitTest {
     public void addition_isCorrect() throws Exception {
         assertEquals(4, 2 + 2);
     }
+
+    @Test
+    public void subtraction_isCorrect() throws Exception {
+        // Purposely fail to test CI on Jenkins.
+        assertEquals(1, 2 + 2);
+    }
 }
